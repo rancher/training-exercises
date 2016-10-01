@@ -1,0 +1,13 @@
+myweb-app:
+  ports:
+  - 80:80
+  tty: true
+  image: rancher/load-balancer-service
+  links:
+  - nginx-web-tier:nginx-web-tier
+  stdin_open: true
+nginx-web-tier:
+  labels:
+    io.rancher.container.hostname_override: container_name
+  tty: true
+  image: cloudnautique/testing:latest
