@@ -10,4 +10,4 @@ nginx-web-tier:
   labels:
     io.rancher.container.hostname_override: container_name
   tty: true
-  image: cloudnautique/testing:latest
+  image: nginx-web-tier:latest
