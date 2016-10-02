@@ -1,7 +1,8 @@
 ## Purpose
-This exercise has the user build a container that simply outputs the hostname to a static index.html file. 
 
-This is useful for deploying a service in Rancher and seeing the effects of Load balancing and scale.
+This exercise has the user build a container that simply outputs the hostname to a static `index.html` file.
+
+This is useful for deploying a service in Rancher and seeing the effects of load balancing and scale.
 
 ### Usage
 
