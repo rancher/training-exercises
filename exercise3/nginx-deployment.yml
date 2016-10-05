@@ -11,6 +11,6 @@ spec:
         spec:
             containers:
                 - name: myweb-app-v1
-                  image: cloudnautique/nginx-web-tier:latest
+                  image: cloudnautique/nginx-web-tier:v1
                   ports:
                       - containerPort: 80
